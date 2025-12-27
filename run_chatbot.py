@@ -1,7 +1,5 @@
 import os
-import warnings
 
-warnings.filterwarnings('ignore')
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 print('Loading libraries')
 from src.generators.chatbot import DialogBot
